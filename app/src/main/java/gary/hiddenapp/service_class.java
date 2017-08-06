@@ -3,7 +3,10 @@ package gary.hiddenapp;
 
 import android.app.Service;
 import android.content.Intent;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.IBinder;
+import android.provider.MediaStore;
 import android.widget.Toast;
 
 public class service_class extends Service {
